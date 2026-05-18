@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Explorer</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    header {
+      background-color: #3498db;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    nav {
+      background-color: #2980b9;
+      padding: 12px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    .hero {
+      background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+      background-size: cover;
+      background-position: center;
+      height: 350px;
+      color: white;
+      text-align: center;
+      padding-top: 120px;
+    }
+
+    .hero h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .hero button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .section {
+      padding: 30px;
+    }
+
+    .section h2 {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: white;
+      width: 280px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      text-align: center;
+      padding-bottom: 15px;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      margin: 15px 0 10px;
+    }
+
+    .card p {
+      padding: 0 10px;
+      color: #555;
+    }
+
+    .card button {
+      margin-top: 10px;
+      padding: 8px 15px;
+      border: none;
+      background-color: #3498db;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form {
+      background-color: white;
+      width: 60%;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    footer {
+      background-color: #2980b9;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Travel Explorer</h1>
+    <p>Discover Amazing Places Around the World</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Destinations</a>
+    <a href="#">Packages</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Start Your Journey Today</h1>
+    <p>Find the best destinations and travel packages easily.</p>
+    <button>Explore Now</button>
+  </section>
+
+  <section class="section">
+    <h2>Popular Destinations</h2>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Maldives">
+        <h3>Maldives</h3>
+        <p>Enjoy crystal clear beaches and relaxing resorts.</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Switzerland">
+        <h3>Switzerland</h3>
+        <p>Experience snowy mountains and beautiful scenery.</p>
+        <button>View Details</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a" alt="Paris">
+        <h3>Paris</h3>
+        <p>Visit the city of lights and famous landmarks.</p>
+        <button>View Details</button>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Contact Us</h2>
+
+    <div class="contact-form">
+      <form>
+        <label>Name</label>
+        <input type="text" placeholder="Enter your name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter your email">
+
+        <label>Message</label>
+        <textarea rows="5" placeholder="Write your message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Travel Explorer | Simple Travel Website</p>
+  </footer>
+
+</body>
+</html
